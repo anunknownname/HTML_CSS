@@ -1,0 +1,32 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+img{
+    width:100%;
+}
+.hero-image{
+    background-image: url("./images/scotland-1987599_1280.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:352px;
+}
+.hero-text{
+    color: aqua;
+    position: absolute;
+    top: 220px;
+    width:100%;
+    text-align:center;
+    font-size:3rem;
+}
+.two-column{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap:50px;
+    width:90%;
+    margin: auto;
+    margin-top: 40px;
+}
+.info{
+    font-size: 1.25em;
+}

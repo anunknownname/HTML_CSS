@@ -4,6 +4,7 @@
 img{
     width:100%;
     margin-top:70px;
+    border-radius:5px;
 }
 .hero-image{
     background-image: url("./images/scotland-1987599_1280.jpg");
@@ -30,4 +31,21 @@ img{
 }
 .info{
     font-size: 1.25em;
+}
+.three-column{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:100px;
+    width:90%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom:50px;
+}
+
+.card{
+    background-color:rgb(211, 28, 28);
+}
+.card-text{
+    text-align: center;
+    color:blueviolet;
 }

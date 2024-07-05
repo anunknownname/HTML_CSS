@@ -1,0 +1,13 @@
+.hero-image{
+    background-image: URL("images/panorama-blurred-bookshelf-many-old-600nw-1150902248.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:120px; 
+    margin:0px;
+    padding:0px;
+}   
+.hero-text{
+    text-align: center;
+    font-size:50px
+}
